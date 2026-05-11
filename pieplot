@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+
+activities = ["Study", "Exercise", "Sleep", "Hobbies"]
+hours = [4, 1, 7, 2]
+
+plt.pie(hours, labels=activities, autopct='%1.1f%%')
+plt.title("Daily Activities")
+plt.savefig("daily_activities_pie.png")
